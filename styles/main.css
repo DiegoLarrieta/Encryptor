@@ -1,0 +1,19 @@
+body{
+    background-color: #eff1fa;
+}
+.input-container{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+}
+.input{
+    color:#356EA9;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
