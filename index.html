@@ -7,21 +7,29 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <div class="pagina">
-        <div class="logo">
-            <h1><a href="https://www.aluracursos.com/">a</a></h1>
-        </div>
-        <div class="input-container">
-            <input type="text" class="input js-input" placeholder="Ingrese el texto aqui">
-        </div>
-        <div class="buttons">
-            <button class="button-encriptar js-button-encriptar">Encriptar</button>
-            <button class="button-desencriptar js-button-desencriptar">Desencriptar</button>
-        </div>
-        <div class="message js-message">
-            <textarea readonly>"No se encontró ningún mensaje"</textarea>
-        </div>
-    </div>
+    <header>
+        <a href="https://www.aluracursos.com/">w
+            <img src="img/Logo.png" class="logo js-logo" alt="LogoAluraLatam">
+        </a>
+    </header>
+    <main>
+        <section>
+            <textarea class="text js-input" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h1 class="informacion">Solo letras minusculas y sin acentos</h1>
+            </div>
+            <div class="buttons">
+                <button class="button-encriptar js-button-encriptar">Encriptar</button>
+                <button class="button-desencriptar js-button-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="message js-message">"No se encontró ningún mensaje"</textarea>
+            <div>
+                <button class="btnCopiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </section>
+    </main>
     <script type="module" src="index.js"></script>
 </body>
 </html>
