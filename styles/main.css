@@ -19,7 +19,7 @@
 /* Estilos del contenedor principal */
 main {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 50px;
     padding: 20px;
@@ -36,8 +36,7 @@ main {
     height: 200px;
     padding: 15px;
     border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #F3F5FC;
 }
 
 .text::placeholder {
@@ -59,7 +58,7 @@ main {
     color: #0A3871;
     margin-top: 20px;
     padding: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
     width: 100%;
     max-width: 600px;
     height: 250px;
